@@ -1,5 +1,5 @@
 const test = QUnit.test;
-import weaponScore from '../src/weaponScore.js';
+import weaponScore from '../src/result/calculate/weaponScore.js';
 
 QUnit.module('weapons score');
 
