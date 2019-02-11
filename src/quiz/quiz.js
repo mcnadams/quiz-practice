@@ -17,5 +17,5 @@ quizForm.addEventListener('submit', function(event) {
     const json = JSON.stringify(answers);
     window.localStorage.setItem('answers', json);
 
-    //route to results page
+    window.location = 'result.html';
 });
